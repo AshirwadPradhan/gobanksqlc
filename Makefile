@@ -14,5 +14,9 @@ migrate-down:
 	migrate -path db/migration -database "postgresql://postgres:secret@localhost:5432/gobank?sslmode=disable" -verbose -f down
 sqlc:
 	sqlc generate
+test:
+	go test -v -cover ./...
+fmt:
+	go fmt ./...
 
 .PHONY: postgres createdb start dropdb stop remove-db migrate-up migrate-down sqlc

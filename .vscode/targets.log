@@ -1,0 +1,337 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
+
+
+# Make data base, printed on Tue Aug  2 01:06:56 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+PROVIDE_FULLSTACK_ACTION = true
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SQLALCHEMY_DATABASE_URI = mysql://user:password@0.0.0.0/testing
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/ashiprad/go/src/github.com/AshirwadPradhan/gobank
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+SDK_TEST_CLIENT_ID = ebec6bb3-b0d4-44d9-b4ac-0c4278ccd501
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_CWD = /
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+MIMIR_CLIENT_ID = bcsregprod
+# environment
+PATH = /Users/ashiprad/.poetry/bin:/Users/ashiprad/.pyenv/shims:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/Users/ashiprad/sonar-scanner-4.6.2.2472-macosx/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/ashiprad/go/bin:/usr/local/go/bin:/Users/ashiprad/.cargo/bin:/Users/ashiprad/go/bin://flutter/bin
+# environment
+IAM_SECRET_PATH = /v1/concourse/bcs-saga-dev/aws/concourse-bcs
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+GOLANG_EXECUTABLE = go
+# environment
+THREE_SCALE_USER_TOKEN = 207c527cfc2a6b8dcf4fa43ad7a976da
+# environment
+GOPATH = /Users/ashiprad/go
+# environment
+GEN_USERNAME = bsc-torii-dev.gen
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+SDK_TEST_CLIENT_SECRET = G38pUq8ewvnCoLGF26SIQmIzn5CqLpCB
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+UUID = 8e05ba5d-6a14-4692-8cd9-fa9aac5cc4e5
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.nCEyIlCl46/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+GOBIN = /Users/ashiprad/go/bin
+# environment
+MIMIR_CLIENT_SECRET = thisisthesecretkey
+# environment
+PWD = /Users/ashiprad/go/src/github.com/AshirwadPradhan/gobank
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+GOMODCACHE = /Users/ashiprad/go/pkg/mod
+# environment
+PYENV_SHELL = zsh
+# environment
+HOME = /Users/ashiprad
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/ashiprad/Library/Application Support/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LOGNAME = ashiprad
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+TELEMETRY_ID = 4734fe28-118c-42b1-bd5d-6cbc41ed704c
+# environment
+ZSH = /Users/ashiprad/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = ashiprad
+# makefile
+.DEFAULT_GOAL := postgres
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+GEN_PASSWORD = YmRiLmdlbg==356
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# environment
+UTM_SOURCE = vscode
+# environment
+PYTHONDONTWRITEBYTECODE = 1
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/sj/j0ncrynd5qb1tcfbmf3xs7d00000gp/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/ashiprad/Library/Application Support/Code/1.69.2-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.124587641.124587652
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+RECOMMENDER_API_URL = https://gw.api.openshift.io//api/v2
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F6:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+GOPRIVATE = www-github3.cisco.com/cxe/golang-apitest-framework
+# environment
+VAULT_ROLE_ID = 6c98db8b-d48b-f2c1-6c06-b15bdb421f4e
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+VAULT_SECRET_ID = 63602a2b-f73e-5e9a-9b35-27a562796695
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 22582
+# variable set hash-table stats:
+# Load=86/1024=8%, Rehash=0, Collisions=3/110=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777220, inode 126316490): 13 files, no impossibilities.
+
+# 13 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+stop:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 8):
+	docker stop postgres12
+	
+
+migrate-up:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 12):
+ 
+	migrate -path db/migration -database "postgresql://postgres:secret@localhost:5432/gobank?sslmode=disable" -verbose up
+	
+
+postgres:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 2):
+	docker run --name postgres12 -p 5432:5432 -e POSTGRES_PASSWORD=secret -d postgres:12-alpine
+	
+
+migrate-down:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 14):
+	migrate -path db/migration -database "postgresql://postgres:secret@localhost:5432/gobank?sslmode=disable" -verbose -f down
+	
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: postgres createdb start dropdb stop remove-db migrate-up migrate-down sqlc
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+sqlc:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 16):
+	sqlc generate
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-01 23:30:49
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+start:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+createdb:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 4):
+	docker exec -it postgres12 createdb --username=postgres --owner=postgres gobank
+	
+
+remove-db:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 10):
+	docker rm postgres12
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dropdb:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 6):
+	docker exec -it postgres12 dropdb gobank
+	
+
+# files hash-table stats:
+# Load=14/1024=1%, Rehash=0, Collisions=0/35=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue Aug  2 01:06:56 2022
+
+ 
